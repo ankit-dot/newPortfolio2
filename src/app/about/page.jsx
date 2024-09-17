@@ -41,9 +41,17 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            I’m Ankit Solanki, a Full Stack Developer with expertise in React, Next.js, Tailwind, and TypeScript. I have a strong background in building responsive web applications, optimizing performance, and integrating APIs. My experience spans various projects, including developing a MERN stack website and building resume text extraction tools.
-
-I’m passionate about problem-solving, self-learning, and working collaboratively within teams. I also have proficiency in web development, data science, and machine learning. With a Bachelor of Technology in Computer Science, I’ve tackled over 750 coding challenges across platforms, always pushing myself to grow and improve.
+              I’m Ankit Solanki, a Full Stack Developer with expertise in React,
+              Next.js, Tailwind, and TypeScript. I have a strong background in
+              building responsive web applications, optimizing performance, and
+              integrating APIs. My experience spans various projects, including
+              developing a MERN stack website and building resume text
+              extraction tools. I’m passionate about problem-solving,
+              self-learning, and working collaboratively within teams. I also
+              have proficiency in web development, data science, and machine
+              learning. With a Bachelor of Technology in Computer Science, I’ve
+              tackled over 750 coding challenges across platforms, always
+              pushing myself to grow and improve.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -213,7 +221,8 @@ I’m passionate about problem-solving, self-learning, and working collaborative
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  Created the company's website and led a finance project for a client.{" "}
+                    Created the company's website and led a finance project for
+                    a client.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -221,7 +230,7 @@ I’m passionate about problem-solving, self-learning, and working collaborative
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                     Girman Tech
+                    Girman Tech
                   </div>
                 </div>
                 {/* CENTER */}
@@ -251,11 +260,12 @@ I’m passionate about problem-solving, self-learning, and working collaborative
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Frontend Developer 
+                    Frontend Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  At Startup Connect, I built web solutions and optimized APIs for efficiency.{" "}
+                    At Startup Connect, I built web solutions and optimized APIs
+                    for efficiency.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -263,7 +273,7 @@ I’m passionate about problem-solving, self-learning, and working collaborative
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                  StartUp Connect
+                    StartUp Connect
                   </div>
                 </div>
               </div>
@@ -277,7 +287,8 @@ I’m passionate about problem-solving, self-learning, and working collaborative
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  As a Computer Science student, I developed web apps, explored data science, and solved coding challenges.{" "}
+                    As a Computer Science student, I developed web apps,
+                    explored data science, and solved coding challenges.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
