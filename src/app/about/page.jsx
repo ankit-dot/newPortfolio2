@@ -64,6 +64,7 @@ const AboutPage = () => {
                 height={500}
                 width={200}
                 src="/sign2.png"
+                alt = ""
                 className="bg-transparent"
               ></Image>
             </div>
@@ -221,7 +222,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Created the company's website and led a finance project for
+                    Created the companys website and led a finance project for
                     a client.{" "}
                   </div>
                   {/* JOB DATE */}

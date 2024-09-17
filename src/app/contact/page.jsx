@@ -16,7 +16,7 @@ const ContactPage = () => {
 
     setSuccess(false);
     console.log(process.env.NEXT_PUBLIC_SERVICE_ID);
-    debugger;
+
     try {
       const result = await emailjs.sendForm(
         "service_atr6nqk",
@@ -30,7 +30,7 @@ const ContactPage = () => {
       form.current.reset();
     } catch (error) {
       console.log("EmailJS error:", error);
-      debugger;
+     
       setError(true);
     }
   };
