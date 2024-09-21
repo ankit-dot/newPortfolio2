@@ -33,7 +33,7 @@ export default function Component() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               className="p-4 rounded-lg ring-1 ring-black bg-black text-white text-center"
-              href="https://drive.google.com/file/d/1XpDC8KmAcsuVhXszKE_lPkIIeVcibAZr/view"
+              href="https://drive.google.com/file/d/1sLqa2Q4Zqan6W10o5THuqb06s7P9wtwy/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
