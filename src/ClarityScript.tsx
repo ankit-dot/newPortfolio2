@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect } from 'react';
 
 const ClarityScript = () => {
@@ -18,3 +20,5 @@ const ClarityScript = () => {
 
   return null;
 };
+
+export default ClarityScript;

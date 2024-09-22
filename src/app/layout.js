@@ -1,9 +1,10 @@
-"use client"
+
 
 import { Inter } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
 import Head from "next/head";
+import ClarityScript from "@/ClarityScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
+        <ClarityScript />
       </body>
     </html>
   );
