@@ -5,6 +5,7 @@ import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
 import Head from "next/head";
 import ClarityScript from "@/ClarityScript";
+import TenXLaunchScript from "@/Luanch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,22 +24,12 @@ export default function RootLayout({ children }) {
           async
           defer
         />
-         <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(c,l,a,r,i,t,y){
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "o6swd7xsr7");
-            `,
-          }}
-        />
+       
       </Head>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
         <ClarityScript />
+        <TenXLaunchScript/>
       </body>
     </html>
   );
