@@ -24,12 +24,19 @@ const items = [
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
+    title: "Loan-Form Workflow",
+    desc: "a loan approval workflow I built at GirmanTech! Users fill a Zod-validated form, which passes through BM, RM, and Senior RM review stages. Notifications are sent at each stage, and the BM can assign someone to sign the contract once fully approved.",
+    img: "/workflow-demo.png",
+    link: "https://workflow-demo-girman.vercel.app/",
+  },
+  {
+    id: 4,
+    color: "from-violet-300 to-purple-300",
     title: "GirmanTech Website",
     desc: "I developed the website for Girman Tech, creating a modern, user-friendly online presence for the company. Utilizing advanced technologies and design principles, I built a responsive site that effectively showcases Girman Tech’s services and expertise, enhancing its digital footprint and engaging visitors with a seamless browsing experience.",
     img: "/girman-website.png",
     link: "https://www.girmantech.com/",
   },
- 
 ];
 
 const PortfolioPage = () => {
@@ -67,9 +74,17 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-4 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
-                  </Link>
+                  <Link href={item.link} passHref>
+  <button
+    className="p-2 text-sm md:p-4 md:text-md lg:p-4 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded"
+    onClick={(e) => {
+      e.preventDefault(); // Prevent default link behavior
+      window.open(item.link, '_blank', 'noopener,noreferrer'); // Open in a new tab
+    }}
+  >
+    See Demo
+  </button>
+</Link>
                 </div>
               </div>
             ))}
